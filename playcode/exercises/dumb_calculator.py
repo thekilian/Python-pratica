@@ -9,3 +9,4 @@ num3 = float(input("Enter third number: "))
 total = (num1 + num2 + num3) / 2
 
 print(total)
+#print("Output: ",total)
