@@ -5,6 +5,6 @@ b = float(input())
 wa = 3.5
 wb = 7.5
 
-mp = (a * wa) + (b * wb) / (wa + wb)
+mp = ((a * wa) + (b * wb)) / (wa + wb)
 
 print("MEDIA = %1.5f" %(mp))
