@@ -1,10 +1,12 @@
-a = float(input()) # one digit after the decimal point?
+a = float(input())
 b = float(input())
 c = float(input())
 
-# considering that grade A has weight 2, grade B has weight 3
+# weight
+wa = 2
+wb = 3
+wc = 5
 
-media = (a + b + c) / 3
+mp = ((a * wa) + (b * wb) + (c * wc)) / (wa + wb + wc)
 
-print("MEDIA = %1.1f" %(media))
-# erro
+print("MEDIA = %1.1f" %(mp))
