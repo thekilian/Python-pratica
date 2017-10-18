@@ -13,10 +13,10 @@ The input file contain 2 integer values.
 Print the variable X according to the following example, with a blank space before and after the equal signal. 'X' is uppercase and you have to print a blank space before and after the '=' signal.
 
 | Input Sample | Input Sample | Output Samples |
+| ------------ | ------------ | -------------- |
 | 10           | 9            | X = 19         |
 |-10           | 4            | X = -6         |
 | 15           | -7           | X = 8          |
-
 
 ## 1002 - Area of a Circle
 
@@ -33,6 +33,7 @@ The input contains a value of floating point (double precision), that is the var
 Present the message "A=" followed by the value of the variable, as in the example bellow, with four places after the decimal point. Use all double precision variables. Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".              
 
 | Input Sample | Output Samples |
+| ------------ | -------------- |
 | 12.0         | A=12.5664      |
 | 100.64       | A=31819.3103   |
 | 150.00       | A=70685.7750   |
@@ -51,6 +52,7 @@ The input file contains 2 integer numbers.
 Print the variable SOMA with all the capital letters, with a blank space before and after the equal signal followed by the corresponding value to the sum of A and B. Like all the problems, don't forget to print the end of line, otherwise you will receive "Presentation Error"
 
 | Input Sample | Input Sample | Output Samples |
+| ------------ | ------------ | -------------- |
 | 30           | 10           | SOMA = 40      |
 |-30           | 10           | SOMA = -20     |
 | 0            | 0            | SOMA = 0       |
@@ -69,6 +71,7 @@ The input file contains 2 integer numbers.
 Print PROD according to the following example, with a blank space before and after the equal signal.
 
 | Input Sample | Input Sample | Output Samples |
+| ------------ | ------------ | -------------- |
 | 3            | 9            | PROD = 27      |
 |-30           | 10           | PROD = -300    |
 | 0            | 9            | PROD = 0       |
@@ -87,6 +90,7 @@ The input file contains 2 floating points' values with one digit after the decim
 Print MEDIA(average in Portuguese) according to the following example, with 5 digits after the decimal point and with a blank space before and after the equal signal.
 
 | Input Sample | Input Sample | Output Samples   |
+| ------------ | ------------ | ---------------- |
 | 5.0          | 7.1          | MEDIA = 6.43182  |
 | 0.0          | 7.1          | MEDIA = 4.84091  |
 | 10.0         | 10.0         | MEDIA = 10.00000 |
@@ -105,6 +109,7 @@ The input file contains 3 values of floating points with one digit after the dec
 Print MEDIA(average in Portuguese) according to the following example, with a blank space before and after the equal signal.
 
 | Input Sample | Input Sample | Input Sample | Output Samples |
+| ------------ | ------------ | ------------ | -------------- |
 | 5.0          |  6.0         |  7.0         | MEDIA = 6.3    |
 | 5.0          | 10.0         | 10.0         | MEDIA = 9.0    |
 | 10.0         | 10.0         |  5.0         | MEDIA = 7.5    |
@@ -123,6 +128,7 @@ The input file contains 4 integer values.
 Print DIFERENCA (DIFFERENCE in Portuguese) with all the capital letters, according to the following example, with a blank space before and after the equal signal.
 
 | Input Sample | Input Sample | Input Sample | Input Sample | Output Samples  |
+| ------------ | ------------ | ------------ | ------------ | --------------- |
 | 5            | 6            |  7           | 8            | DIFERENCA = -26 |
 | 0            | 0            |  7           | 8            | DIFERENCA = -56 |
 | 5            | 6            | -7           | 8            | DIFERENCA = 86  |
@@ -141,6 +147,7 @@ The input file contains 2 integer numbers and 1 value of floating point, represe
 Print the number and the employee's salary, according to the given example, with a blank space before and after the equal signal.
 
 | Input 1 | Input 2 | Input 3 | Output 1    | Output 2            |
+| ------- | ------- | ------- | ----------- | ------------------- |
 | 25      | 100     |  5.50   | NUMBER = 25 | SALARY = U$ 550.00  |
 |  1      | 200     | 20.50   | NUMBER = 1  | SALARY = U$ 4100.00 |
 |  6      | 145     | 15.55   | NUMBER = 6  | SALARY = U$ 2254.75 |
