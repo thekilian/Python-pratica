@@ -152,3 +152,21 @@ Print the number and the employee's salary, according to the given example, with
 |  1      | 200     | 20.50   | NUMBER = 1  | SALARY = U$ 4100.00 |
 |  6      | 145     | 15.55   | NUMBER = 6  | SALARY = U$ 2254.75 |
 
+
+## 1009 - Salary with Bonus
+
+Make a program that reads a seller's name, his/her fixed salary and the sale's total made by himself/herself in the month (in money). Considering that this seller receives 15% over all products sold, write the final salary (total) of this seller at the end of the month , with two decimal places.
+
+**Input**
+
+The input file contains a text (employee's first name), and two double precision values, that are the seller's salary and the total value sold by him/her.
+
+**Output**  
+
+Print the seller's total salary, according to the given example.
+
+| Input 1 | Input 2 | Input 3  | Output             |
+| ------- | ------- | -------- | ------------------ |
+| JOAO    | 500.00  | 1230.30  | TOTAL = R$ 684.54  |
+| PEDRO   | 700.00  | 0.00     | TOTAL = R$ 700.00  |
+| PAULO   | 1700.00 | 1230.50  | TOTAL = R$ 1884.58 |
