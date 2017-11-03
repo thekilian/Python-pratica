@@ -170,3 +170,43 @@ Print the seller's total salary, according to the given example.
 | JOAO    | 500.00  | 1230.30  | TOTAL = R$ 684.54  |
 | PEDRO   | 700.00  | 0.00     | TOTAL = R$ 700.00  |
 | PAULO   | 1700.00 | 1230.50  | TOTAL = R$ 1884.58 |
+
+
+## 1010 - Simple Calculate
+
+In this problem, the task is to read a code of a product 1, the number of units of product 1, the price for one unit of product 1, the code of a product 2, the number of units of product 2 and the price for one unit of product 2. After this, calculate and show the amount to be paid.
+
+**Input**
+
+The input file contains two lines of data. In each line there will be 3 values: two integers and a floating value with 2 digits after the decimal point.
+
+**Output**
+
+The output file must be a message like the following example where "Valor a pagar" means Value to Pay. Remember the space after ":" and after "R$" symbol. The value must be presented with 2 digits after the point.
+
+| Input 1    | Input 2    | Output                  |
+| ---------- | ---------- | ----------------------- |
+| 12 1 5.30  | 16 2 5.10  | VALOR A PAGAR: R$ 15.50 |
+| 13 2 15.30 | 161 4 5.20 | VALOR A PAGAR: R$ 51.40 |
+| 1 1 15.10  | 2 1 15.10  | VALOR A PAGAR: R$ 30.20 |
+
+
+## 1011 - Sphere
+
+Make a program that calculates and shows the volume of a sphere being provided the value of its radius (R) . The formula to calculate the volume is: (4/3) * pi * R3. Consider (assign) for pi the value 3.14159.
+
+Tip: Use (4/3.0) or (4.0/3) in your formula, because some languages (including C++) assume that the division's result between two integers is another integer. :)
+
+**Input**
+
+The input contains a value of floating point (double precision).
+
+**Output**
+
+The output must be a message "VOLUME" like the following example with a space before and after the equal signal. The value must be presented with 3 digits after the decimal point.
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+| 3            | VOLUME = 113.097         |
+| 15           | VOLUME = 14137.155       |
+| 1523         | VOLUME = 14797486501.627 |
