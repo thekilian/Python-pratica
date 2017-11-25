@@ -1,9 +1,9 @@
-product1 = raw_input().split(" ")
-product2 = raw_input().split(" ")
+product1 = input().split(" ")
+product2 = input().split(" ")
 
 '''
-Python 3 muda para input apenas:
-product1 = input().split(" ")
+Python 2 muda para raw_input, ex.:
+product1 = raw_input().split(" ")
 '''
 
 code1 = product1[0]
