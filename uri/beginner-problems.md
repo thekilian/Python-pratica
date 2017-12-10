@@ -239,7 +239,6 @@ Input Samples 	Output Samples
 |                | TRAPEZIO: 18.200         |
 |                | QUADRADO: 16.000         |
 |                | RETANGULO: 12.000        |
-                 
 | 12.7 10.4 15.2 | TRIANGULO: 96.520        |
 |                | CIRCULO: 725.833         |
 |                | TRAPEZIO: 175.560        |
