@@ -235,16 +235,16 @@ Input Samples 	Output Samples
 | Input Sample   | Output Samples           |
 | -------------- | ------------------------ |
 | 3.0 4.0 5.2    | TRIANGULO: 7.800         |
-                 | CIRCULO: 84.949          |
-                 | TRAPEZIO: 18.200         |
-                 | QUADRADO: 16.000         |
-                 | RETANGULO: 12.000        |
+|                | CIRCULO: 84.949          |
+|                | TRAPEZIO: 18.200         |
+|                | QUADRADO: 16.000         |
+|                | RETANGULO: 12.000        |
                  
 | 12.7 10.4 15.2 | TRIANGULO: 96.520        |
-                 | CIRCULO: 725.833         |
-                 | TRAPEZIO: 175.560        |
-                 | QUADRADO: 108.160        |
-                 | RETANGULO: 132.080       |
+|                | CIRCULO: 725.833         |
+|                | TRAPEZIO: 175.560        |
+|                | QUADRADO: 108.160        |
+|                | RETANGULO: 132.080       |
 
 
 ## 1013 - The Greatest
@@ -364,27 +364,27 @@ Print the read number and the minimum quantity of each necessary banknotes in Po
 | Input Sample | Output Samples           |
 | ------------ | ------------------------ |
 | 576          | 576                      |
-               | 5 nota(s) de R$ 100,00   |
-               | 1 nota(s) de R$ 50,00    |
-               | 1 nota(s) de R$ 20,00    |
-               | 0 nota(s) de R$ 10,00    |
-               | 1 nota(s) de R$ 5,00     |
-               | 0 nota(s) de R$ 2,00     |
-               | 1 nota(s) de R$ 1,00     |
+|              | 5 nota(s) de R$ 100,00   |
+|              | 1 nota(s) de R$ 50,00    |
+|              | 1 nota(s) de R$ 20,00    |
+|              | 0 nota(s) de R$ 10,00    |
+|              | 1 nota(s) de R$ 5,00     |
+|              | 0 nota(s) de R$ 2,00     |
+|              | 1 nota(s) de R$ 1,00     |
 | 11257        | 11257                    |
-               | 112 nota(s) de R$ 100,00 |
-               | 1 nota(s) de R$ 50,00    |
-               | 0 nota(s) de R$ 20,00    |
-               | 0 nota(s) de R$ 10,00    |
-               | 1 nota(s) de R$ 5,00     |
-               | 1 nota(s) de R$ 2,00     |
-               | 0 nota(s) de R$ 1,00     |
+|              | 112 nota(s) de R$ 100,00 |
+|              | 1 nota(s) de R$ 50,00    |
+|              | 0 nota(s) de R$ 20,00    |
+|              | 0 nota(s) de R$ 10,00    |
+|              | 1 nota(s) de R$ 5,00     |
+|              | 1 nota(s) de R$ 2,00     |
+|              | 0 nota(s) de R$ 1,00     |
 | 503          | 503                      |
-               | 5 nota(s) de R$ 100,00   |
-               | 0 nota(s) de R$ 50,00    |
-               | 0 nota(s) de R$ 20,00    |
-               | 0 nota(s) de R$ 10,00    |
-               | 0 nota(s) de R$ 5,00     |
-               | 1 nota(s) de R$ 2,00     |
-               | 1 nota(s) de R$ 1,00     |
+|              | 5 nota(s) de R$ 100,00   |
+|              | 0 nota(s) de R$ 50,00    |
+|              | 0 nota(s) de R$ 20,00    |
+|              | 0 nota(s) de R$ 10,00    |
+|              | 0 nota(s) de R$ 5,00     |
+|              | 1 nota(s) de R$ 2,00     |
+|              | 1 nota(s) de R$ 1,00     |
 

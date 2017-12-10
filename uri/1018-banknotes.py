@@ -45,13 +45,3 @@ print("{} nota(s) de R$ 5,00".format(nota5))
 print("{} nota(s) de R$ 2,00".format(nota2))
 print("{} nota(s) de R$ 1,00".format(nota1))
 
-'''
-576
-               | 5 nota(s) de R$ 100,00 |
-               | 1 nota(s) de R$ 50,00  |
-               | 1 nota(s) de R$ 20,00  |
-               | 0 nota(s) de R$ 10,00  |
-               | 1 nota(s) de R$ 5,00   |
-               | 0 nota(s) de R$ 2,00   |
-               | 1 nota(s) de R$ 1,00   |
-'''
