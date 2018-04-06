@@ -21,3 +21,10 @@ biblioteca math - funcionalidades:
     from math import sqrt - importa só raíz quadrada (não poderei utilizar as outras funcionalidades)
     from math import sqrt, ceil - importa só raíz quadrada E ceil
 '''
+
+import math
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {}'.format(num, raiz))
+
+# 17:35
