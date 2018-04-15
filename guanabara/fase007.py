@@ -6,7 +6,7 @@ Operadores Aritméticos
 * Multiplicação
 / Divisão
 ** Potência
-// Divisão inteira ( divisão sem vírgula)
+// Divisão inteira (divisão sem vírgula)
 % Resto da divisão (módulo)
 
 5 + 2 == 7
