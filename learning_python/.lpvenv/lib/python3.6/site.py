@@ -31,7 +31,7 @@ non-directories) are never added to sys.path; no directory is added to
 sys.path more than once.  Blank lines and lines beginning with
 '#' are skipped. Lines starting with 'import' are executed.
 
-For example, suppose sys.prefix and sys.exec_prefix are set to
+For 1.file_structure_example, suppose sys.prefix and sys.exec_prefix are set to
 /usr/local and there is a directory /usr/local/lib/python2.X/site-packages
 with three subdirectories, foo, bar and spam, and two path
 configuration files, foo.pth and bar.pth.  Assume foo.pth contains the
