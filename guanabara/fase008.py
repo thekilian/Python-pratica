@@ -20,42 +20,33 @@ biblioteca math - funcionalidades:
     import math - importa todas as funcionalidades
     from math import sqrt - importa só raíz quadrada (não poderei utilizar as outras funcionalidades)
     from math import sqrt, ceil - importa só raíz quadrada E ceil
-'''
 
-'''
 # importar tudo
 import math
 num = int(input('Digite um número: '))
 raiz = math.sqrt(num)
 print('A raiz de {} é igual a {}'.format(num, raiz))
-'''
 
-'''
 # importar apenas sqrt
 from math import sqrt
 num = int(input('Digite um número: '))
 raiz = sqrt(num) # não precisa digitar math.função
 print('A raiz de {} é igual a {}'.format(num, raiz))
-'''
 
-'''
-# importar apenas sqrt
+# importar apenas sqrt e floor
 from math import sqrt, floor
 num = int(input('Digite um número: '))
 raiz = sqrt(num) # não precisa digitar math.função
 print('A raiz de {} é igual a {}'.format(num, floor(raiz)))
-'''
 
-'''
 Para pesquisar as bibliotecas: python.org / docs / escolher versão Python - math
-'''
 
-'''
+# importar números aleatórios
 import random
 num = random.random()
 print(num)
-'''
 
 import random
 num = random.randint(1, 10)
 print(num)
+'''
