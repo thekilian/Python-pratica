@@ -35,7 +35,7 @@ built with triple double-quotes.
 '''
 
 '''
-In #A and #B, we print str4, frist implicity, then explicity using the print function. Why are they different?
+In #A and #B, we print str4, first implicity, then explicity using the print function. Why are they different?
 '''
 
 '''
