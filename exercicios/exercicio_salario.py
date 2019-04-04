@@ -1,10 +1,10 @@
 '''
-Faça um algoritmo que utilize o menu abaixo onde:
-Na opção 1: voce deverá realizar o cadastro do nome, o salário e o sexo(m/f) de uma pessoa.
-Na opção 2: você deverá apenas listar os dados cadastrados
+Faça um algoritmo que utilize o menu abaixo, onde:
+Na opção 1: você deverá realizar o cadastro do nome, o salário e o sexo (m/f) de uma pessoa.
+Na opção 2: você deverá apenas listar os dados cadastrados.
 Na opção 3: você deverá calcular a média dos salarios cadastrados e imprimir o nome das pessoas cujos salários estáo acima da média.
 Na opção 4: você deverá imprimir o nome e o salário do homem que ganha mais e, o nome e o salário da mulher que ganha mais. Mostre também a diferença de salário entre eles.
-Na opção 5: Você deverá ler um valor percentual e dar aumento para todos que ganham abaixo da média.
+Na opção 5: você deverá ler um valor percentual e dar aumento para todos que ganham abaixo da média.
 '''
 
 menu = '''
@@ -20,6 +20,7 @@ MENU
 ====================
 Escolha: '''
 
+'''
 while True:
     escolha = input(menu)
     if escolha == '0':
@@ -30,3 +31,4 @@ while True:
     elif escolha == '4':
     elif escolha == '5':
 print("Fim.")
+'''
