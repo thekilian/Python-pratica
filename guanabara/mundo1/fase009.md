@@ -43,7 +43,6 @@ frase[9::3]
 ```
 - começa no 9, não sei onde é o final - pega pra mim Python heeh, e o :3 pula de 3 em 3
 
-
 ***- ANÁLISE:***
 ```
 len(frase)
@@ -82,6 +81,7 @@ frase.find('Android')
 
 
 ***- TRANSFORMAÇÃO:***
+
 Via de regra, uma lista de string é imutável. Mas consigo mudá-la através de métodos. Não consigo mexer direto nos elementos, mas consigo através de métodos.
 
 
@@ -151,7 +151,14 @@ frase.split()
 ```
 - divisão da string, considerando os espaços, em uma lista
 - podem ter parâmetros na função com outros separadores/caracteres
-[str.split(sep=None, maxsplit=-1)](https://docs.python.org/3/library/stdtypes.html?highlight=split#str.split ".split()")
+```
+[str.split(sep=None, maxsplit=-1)]
+```
+Link: (https://docs.python.org/3/library/stdtypes.html?highlight=split#str.split)
+
+```
+var.split()
+```
 
 
 ***- JUNÇÃO:***
@@ -164,7 +171,6 @@ frase.split()
 
 
 ## Desafios:
-***Dica:***
 
 ***#022 -*** Crie um programa que leia o nome completo de uma pessoa e mostre:
 - O nome com todas as letras maiúsculas.
@@ -174,12 +180,16 @@ frase.split()
 
 
 ***#023 -*** Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+
 Exemplo:
 Digite um número: 1834
 
 unidade: 4
+
 dezema: 3
+
 centena: 8
+
 milhar: 1
 
 * fazer o exercício como string e matematicamente
@@ -199,6 +209,9 @@ Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome
 
 
 ***#027 -*** Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
+
 Exemplo: Ana Maria de Souza
+
 primeiro = Ana
+
 último = Souza
