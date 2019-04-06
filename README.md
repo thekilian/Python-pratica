@@ -2,3 +2,7 @@
 ## Estudo de Python
 
 Construindo conhecimento em Python
+
+
+
+Exercícios:

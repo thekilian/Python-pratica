@@ -154,11 +154,9 @@ frase.split()
 ```
 [str.split(sep=None, maxsplit=-1)]
 ```
-Link: (https://docs.python.org/3/library/stdtypes.html?highlight=split#str.split)
 
-```
-var.split()
-```
+[str.split(sep=None, maxsplit=-1)](https://docs.python.org/3/library/stdtypes.html?highlight=split#str.split)
+
 
 
 ***- JUNÇÃO:***
