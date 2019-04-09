@@ -184,7 +184,7 @@ Digite um número: 1834
 
 unidade: 4
 
-dezema: 3
+dezena: 3
 
 centena: 8
 
