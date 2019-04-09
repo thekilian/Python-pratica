@@ -87,7 +87,7 @@ Se ele ultrapassar 80km/h, mostre uma mensagem dizendo que ele foi multado.
 A multa vai custar R$7,00 por cada km acima do limite.
 
 ***#030 -***
-Crie um programa que leia um número inteiro e mostre na tela s ele é PAR ou ÍMPAR.
+Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
 
 ***#031 -***
 Desenvolva um programa que pergunte a distância de uma viagem em km.
