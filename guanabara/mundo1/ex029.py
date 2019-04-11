@@ -4,12 +4,11 @@ Se ele ultrapassar 80km/h, mostre uma mensagem dizendo que ele foi multado.
 A multa vai custar R$7,00 por cada km acima do limite.
 '''
 
-speed = int(input('Qual a velocidade do carro? '))
-print('A velocidade do carro é de {}km/h.'.format(speed))
-max_speed = 80
+speed = float(input('Qual a velocidade do carro? '))
+print('A velocidade do carro é de {:.0f}km/h.'.format(speed))
 
-if speed >= max_speed:
-    test = speed - max_speed
-    result = test * 7.00
-    print('Você foi multado!')
-    print('A multa será de R${}'.format(result))
+if speed > 80:
+    print('Você foi MULTADO! Você excedeu o limite de velocidade de 80km/h.')
+    multa = (speed - 80) * 7
+    print('A multa será de R${:.2f}'.format(multa))
+print('Tenha um bom dia e dirija com segurança!!!')
