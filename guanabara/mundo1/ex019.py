@@ -25,7 +25,7 @@ escolhido = random.choice(alunos)
 print('O aluno escolhido foi: {}'.format(escolhido))
 '''
 
-# importando somente o que precisamos: chice
+# importando somente o que precisamos: choice
 from random import choice
 aluno1 = input('Primeiro aluno: ')
 aluno2 = input('Segundo aluno: ')
