@@ -2,6 +2,18 @@
 
 # SUBJECT: SEQUENTIAL
 
+## 1000 - Hello World!
+
+Welcome to URI Online Judge!
+
+Your first program in any programming language is usually "Hello World!". In this first problem all you have to do is print this message on the screen.
+
+**Input**
+This problem has no input.
+
+**Output**
+You must print the message Hello World! and then the endline as shown below.
+
 ## 1001 - Extremely basic
 
 Read 2 integer values and store them in variables, named A and B and make the sum of these two variables, assigning its result to the variable X. Print X as shown below. Don't present any message beyond what is being specified and don't forget to print the end of line after the result, otherwise you will receive “Presentation Error”.
