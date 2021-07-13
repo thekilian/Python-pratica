@@ -44,4 +44,3 @@ print("{} nota(s) de R$ 10,00".format(nota10))
 print("{} nota(s) de R$ 5,00".format(nota5))
 print("{} nota(s) de R$ 2,00".format(nota2))
 print("{} nota(s) de R$ 1,00".format(nota1))
-
