@@ -616,12 +616,112 @@ Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens dev
 |                 | Nota do exame: 6.4       |
 |                 | Aluno aprovado.          |
 |                 | Media final: 5.9         |
-
+| --------------- | ------------------------ |
 | 2.0 6.5 4.0 9.0 | Media: 4.8               |
 |                 | Aluno reprovado.         |
-
+| --------------- | ------------------------ |
 | 9.0 4.0 8.5 9.0 | Media: 7.3               |
 |                 | Aluno aprovado.          |
+
+## 1041 - Coordenadas de um ponto
+
+Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).
+
+![gráfico coordenadas de um ponto](1041.png)
+
+Se o ponto estiver na origem, escreva a mensagem “Origem”.
+
+Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
+
+**Input**
+
+A entrada contem as coordenadas de um ponto.
+
+**Output**
+
+A saída deve apresentar o quadrante em que o ponto se encontra.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 4.5 -2.2     | Q4             |
+| ------------ | -------------- |
+| 0.1 0.1      | Q1             |
+| ------------ | -------------- |
+| 0.0 0.0      | Origem         |
+
+## 1042 - Sort simples
+
+Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.
+
+**Input**
+
+A entrada contem três números inteiros.
+
+**Output**
+
+Imprima a saída conforme foi especificado.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 7 21 -14     | -14            |
+|              | 7              |
+|              | 21             |
+|              |                |
+|              | 7              |
+|              | 21             |
+|              | -14            |
+| ------------ | -------------- |
+| -14 21 7     | -14            |
+|              | 7              |
+|              | 21             |
+|              |                |
+|              | -14            |
+|              | 21             |
+|              | 7              |
+
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+
+
+
+
+
 
 ***
 
