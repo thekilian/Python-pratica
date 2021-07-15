@@ -32,6 +32,19 @@ perímetro do triângulo = soma de todos os lados
 
 ***
 
-área de um triângulo = (base x altura) / 2
+área do trapézio = ((a + b) * c) / 2
 
 '''
+
+a, b, c = input().split()
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+if ((a + b) > c) and ((a + c) > b) and ((b + c) > a):
+    perimetro = a + b + c
+    print("Perimetro = {:.1f}".format(perimetro))
+else:
+    area = ((a + b) * c) / 2
+    print("Area = {:.1f}".format(area))
