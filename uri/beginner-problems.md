@@ -704,6 +704,29 @@ O resultado deve ser apresentado com uma casa decimal.
 | ------------ | ---------------- |
 | 6.0 4.0 2.1  | Perimetro = 12.1 |
 
+## 1044 - Múltiplos
+
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
+
+**Input**
+
+A entrada contém valores inteiros.
+
+**Output**
+
+A saída deve conter uma das mensagens conforme descrito acima.
+
+| Input Sample | Output Samples     |
+| ------------ | ------------------ |
+| 6 24         | Sao Multiplos      |
+| ------------ | ------------------ |
+| 6 25         | Nao sao Multiplos  | 
+
+
+
+
+
+
 
 ***
 
@@ -723,12 +746,239 @@ O resultado deve ser apresentado com uma casa decimal.
 | ------------ | ------------------------ |
 |              |  
 
+***
+
+## 10 - 
 
 
 
+**Input**
 
 
 
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
 ***
 
 ## 10 - 
