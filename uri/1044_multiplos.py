@@ -13,7 +13,7 @@ a, b = input().split()
 a = int(a)
 b = int(b)
 
-if multiplos:
+if a % b == 0 or b % a == 0:
     print("Sao Multiplos")
 else:
     print("Nao sao Multiplos")
