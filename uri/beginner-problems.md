@@ -722,14 +722,6 @@ A saída deve conter uma das mensagens conforme descrito acima.
 | ------------ | ------------------ |
 | 6 25         | Nao sao Multiplos  | 
 
-
-
-
-
-
-
-***
-
 ## 10 - 
 
 
