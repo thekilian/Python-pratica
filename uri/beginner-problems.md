@@ -756,59 +756,87 @@ Imprima todas as classificações do triângulo especificado na entrada.
 | 6.0 8.0 10.0 | TRIANGULO RETANGULO    |
 ***
 
-## 10 - 
+## 1046 - Tempo de jogo
 
-
-
-**Input**
-
-
-
-**Output**
-
-
-
-| Input Sample | Output Samples           |
-| ------------ | ------------------------ |
-|              |  
-
-***
-
-## 10 - 
-
-
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
 
 **Input**
 
-
+A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
 
 **Output**
 
+Apresente a duração do jogo conforme exemplo abaixo.
 
 
-| Input Sample | Output Samples           |
-| ------------ | ------------------------ |
-|              |  
+| Input Sample | Output Samples          |
+| ------------ | ----------------------- |
+| 16 2         | O JOGO DUROU 10 HORA(S) |
+| ------------ | ----------------------- |
+| 0 0          | O JOGO DUROU 24 HORA(S) |
+| ------------ | ----------------------- |
+| 2 16         | O JOGO DUROU 14 HORA(S) |
 
 ***
 
-## 10 - 
+## 1047 - Tempo de jogo com minutos 
 
+Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.
 
+Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
 
 **Input**
 
-
+Quatro números inteiros representando a hora de início e fim do jogo.
 
 **Output**
 
+Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
+
+| Input Sample | Output Samples                        |
+| ------------ | ------------------------------------- |
+| 7 8 9 10     | O JOGO DUROU 2 HORA(S) E 2 MINUTO(S)  |
+| ------------ | ------------------------------------- |
+| 7 7 7 7      | O JOGO DUROU 24 HORA(S) E 0 MINUTO(S) | 
+| ------------ | ------------------------------------- |
+| 7 10 8 9     | O JOGO DUROU 0 HORA(S) E 59 MINUTO(S) |
 
 
-| Input Sample | Output Samples           |
-| ------------ | ------------------------ |
-|              |  
+## 1048 - Aumento de salário
 
-***
+A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
+
+| Salário           | Percentual de reajuste |
+| ----------------- | ---------------------- |
+| 0 - 400.00        | 15%                    | 
+| 400.01 - 800.00   | 12%                    |
+| 800.01 - 1200.00  | 10%                    |  
+| 1200.01 - 2000.00 | 7%                     |
+| Acima de 2000.00  | 4%                     |
+
+Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
+
+**Input**
+
+A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
+
+**Output**
+Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o percentual de reajuste ganho, conforme exemplo abaixo.
+
+| Input Sample | Output Samples         |
+| ------------ | ---------------------- |
+| 400.00       | Novo salario: 460.00   |
+|              | Reajuste ganho: 60.00  |
+|              | Em percentual: 15 %    |
+| ------------ | ---------------------- |
+| 800.01       | Novo salario: 880.01   | 
+|              | Reajuste ganho: 80.00  | 
+|              | Em percentual: 10 %    |
+| ------------ | ---------------------- |
+| 2000.00      | Novo salario: 2140.00  |
+|              | Reajuste ganho: 140.00 | 
+|              | Em percentual: 7 %     |
+
 
 ## 10 - 
 
