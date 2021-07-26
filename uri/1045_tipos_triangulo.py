@@ -44,20 +44,35 @@ a = ordem[0]
 b = ordem[1]
 c = ordem[2]
 
+'''
+#debug
+print("n1 = {}".format(n1))
+print("n2 = {}".format(n2))
+print("n3 = {}".format(n3))
+print("result = {}".format(result))
+print("ordem = {}".format(ordem))
+print("A = {}".format(a))
+print("B = {}".format(b))
+print("C = {}".format(c))
+'''
+
+tag = True
+
 if a >= (b + c):
+    tag = False
     print("NAO FORMA TRIANGULO")
 
-if (a ** 2) == (b ** 2) + (c ** 2):
+if (a ** 2) == (b ** 2) + (c ** 2) and tag == True:
     print("TRIANGULO RETANGULO")
 
-if (a ** 2) > (b ** 2) + (c ** 2):
+if (a ** 2) > (b ** 2) + (c ** 2) and tag == True:
     print("TRIANGULO OBTUSANGULO")
 
-if (a ** 2) < (b ** 2) + (c ** 2):
+if (a ** 2) < (b ** 2) + (c ** 2) and tag == True:
     print("TRIANGULO ACUTANGULO")
 
-if a == b == c:
+if a == b and a == c and b == a and b == c and c == a and c == b and tag == True:
     print("TRIANGULO EQUILATERO")
 
-if a == b and a == c and b != c or a == b and a != c and b == c or a != b and a == c and b == c:
+if a == b and a != c or a == c and a != b or b == a and b!= c or b == c and b != a or c == b and c != a or c == a and c != b and tag == True:
     print("TRIANGULO ISOSCELES")
