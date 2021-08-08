@@ -838,23 +838,36 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o perce
 |              | Em percentual: 7 %     |
 
 
-## 10 - 
+## 1049 - Animal
 
+Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
 
+![fluxograma vertebrados e invertebrados](1049.png)
 
 **Input**
 
-
+A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.
 
 **Output**
 
+Imprima o nome do animal correspondente à entrada fornecida.
 
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| vertebrado   | homem          |
+| mamifero     |
+| onivoro      |
 
-| Input Sample | Output Samples           |
-| ------------ | ------------------------ |
-|              |  
+| ------------ | ------ |
+| vertebrado   | aguia  |
+| ave          |
+| carnivoro    |
 
-***
+| ------------ | ------- |
+| invertebrado | minhoca |
+| anelideo     |
+| onivoro      |
+
 
 ## 10 - 
 
