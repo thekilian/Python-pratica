@@ -18,3 +18,12 @@ Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobr
 '''
 
 salario = float(input())
+
+if salario >= 0.0 and salario <= 2000.00:
+    print("Isento")
+elif salario >= 2000.01 and salario <= 3000.00:
+    print("") # 8%
+elif salario >= 3000.01 and salario <= 4500.00:
+    print("") # 18%
+elif salario >= 4500.01:
+    print("") # 28%
