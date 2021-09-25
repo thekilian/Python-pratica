@@ -22,8 +22,17 @@ salario = float(input())
 if salario >= 0.0 and salario <= 2000.00:
     print("Isento")
 elif salario >= 2000.01 and salario <= 3000.00:
-    print("") # 8%
+    imposto = salario - (salario * 92 / 100)
+    print("R$ {}".format(imposto)) # 8%
 elif salario >= 3000.01 and salario <= 4500.00:
-    print("") # 18%
+    imposto = salario - (salario * 82 / 100)
+    print("R$ {}".format(imposto)) # 18%
 elif salario >= 4500.01:
-    print("") # 28%
+    imposto = salario - (salario * 72 / 100)
+    print("R$ {}".format(imposto)) # 28%
+
+'''
+| de R$ 2000.01 até R$ 3000.00 | 8 %    |
+| de R$ 3000.01 até R$ 4500.00 | 18 %   |
+| acima de R$ 4500.00          | 28 %   |
+'''
