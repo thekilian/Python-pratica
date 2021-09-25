@@ -932,6 +932,269 @@ Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de
 | 4520.00      | R$ 355.60      |
 
 
+## 1052 - Mês
+
+Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este valor, deve ser apresentado como resposta o mês do ano por extenso, em inglês, com a primeira letra maiúscula.
+
+**Input**
+
+A entrada contém um único valor inteiro.
+
+**Output**
+
+Imprima por extenso o nome do mês correspondente ao número existente na entrada, com a primeira letra em maiúscula.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 4            | April          |
+
+
+## 1059 - Números pares
+
+Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+
+**Input**
+
+Neste problema extremamente simples de repetição não há entrada.
+
+**Output**
+
+Imprima todos os números pares entre 1 e 100, inclusive se for o caso, um em cada linha.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+|              | 2              |
+|              | 4              |
+|              | 6              |
+|              | ...            |
+|              | 100            |
+
+
+## 1060 - Números positivos
+
+Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
+
+**Input**
+
+Seis valores, negativos e/ou positivos.
+
+**Output**
+
+Imprima uma mensagem dizendo quantos valores positivos foram lidos.
+
+| Input Sample | Output Samples      |
+| ------------ | ------------------- |
+| 7            | 4 valores positivos | 
+| -5           |                     |
+| 6            |                     |
+| -3.4         |                     |
+| 4.6          |                     |
+| 12           |                     |
+
+
+## 1061 - Tempo de um evento
+
+Pedrinho está organizando um evento em sua Universidade. O evento deverá ser no mês de Abril, iniciando e terminando dentro do mês. O problema é que Pedrinho quer calcular o tempo que o evento vai durar, uma vez que ele sabe quando inicia e quando termina o evento.
+
+Sabendo que o evento pode durar de poucos segundos a vários dias, você deverá ajudar Pedrinho a calcular a duração deste evento.
+
+**Input**
+
+Como entrada, na primeira linha vai haver a descrição “Dia”, seguido de um espaço e o dia do mês no qual o evento vai começar. Na linha seguinte, será informado o momento no qual o evento vai iniciar, no formato hh : mm : ss. Na terceira e quarta linha de entrada haverá outra informação no mesmo formato das duas primeiras linhas, indicando o término do evento.
+
+**Output**
+
+Na saída, deve ser apresentada a duração do evento, no seguinte formato:
+
+W dia(s)
+X hora(s)
+Y minuto(s)
+Z segundo(s)
+
+Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| Dia 5        | 3 dia(s)       |
+| 08 : 12 : 23 | 22 hora(s)     |
+| Dia 9        | 1 minuto(s)    |
+| 06 : 13 : 23 | 0 segundo(s)   |
+
+
+## 1064 - Positivos e média
+
+Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
+
+**Input**
+
+A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
+
+**Output**
+
+O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
+
+| Input Sample | Output Samples      |
+| ------------ | ------------------- |
+| 7            | 4 valores positivos |
+| -5           | 7.4                 |
+| 6            |                     |
+| -3.4         |                     |
+| 4.6          |                     |
+| 12           |                     |
+
+
+## 1065 - Pares entre cinco números
+
+Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
+
+**Input**
+
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+**Output**
+
+Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
+
+| Input Sample | Output Samples  |
+| ------------ | --------------- |
+| 7            | 3 valores pares |
+| -5           |                 |
+| 6            |                 |
+| -4           |                 |
+| 12           |                 |
+
+
+## 1066 - Pares, ímpares, positivos e negativos
+
+Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
+
+**Input**
+
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+**Output**
+
+Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
+
+| Input Sample | Output Samples          |
+| ------------ | ----------------------- |
+| -5           | 3 valor(es) par(es)     |
+| 0            | 2 valor(es) impar(es)   |
+| -3           | 1 valor(es) positivo(s) |
+| -4           | 3 valor(es) negativo(s) |
+| 12           |                         |
+
+
+## 1067 - Números ímpares
+
+Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.
+
+**Input**
+
+O arquivo de entrada contém 1 valor inteiro qualquer.
+
+**Output**
+
+Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 8            | 1              |
+|              | 3              |
+|              | 5              |
+|              | 7              |
+
+
+## 1070 - Seis números ímpares 
+
+Leia um valor inteiro X. Em seguida apresente os 6 valores ímpares consecutivos a partir de X, um valor por linha, inclusive o X ser for o caso.
+
+**Input**
+
+A entrada será um valor inteiro positivo.
+
+**Output**
+
+A saída será uma sequência de seis números ímpares.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 8            | 9              |
+|              | 11             |
+|              | 13             |
+|              | 15             |
+|              | 17             |
+|              | 19             |
+
+
+## 1071 - Soma de ímpares consecutivos I
+
+Leia 2 valores inteiros X e Y. A seguir, calcule e mostre a soma dos números impares entre eles.
+
+**Input**
+
+O arquivo de entrada contém dois valores inteiros.
+
+**Output**
+
+O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímpares que estão entre os valores fornecidos na entrada que deverá caber em um inteiro.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 6            | 5              |
+| -5           |                |
+| ------------ | -------------- |
+| 15           | 13             |
+| 12           |                |
+| ------------ | -------------- |
+| 12           | 0              |
+| 12           |                |
+
+
+## 1072 - Intervalo 2
+
+Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando essas informações.
+
+**Input**
+
+A primeira linha da entrada contém um valor inteiro N (N < 10000), que indica o número de casos de teste.
+Cada caso de teste a seguir é um valor inteiro X (-107 < X <107).
+
+**Output**
+
+Para cada caso, imprima quantos números estão dentro (in) e quantos valores estão fora (out) do intervalo.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 4            | 2 in           |
+| 14           | 2 out          |
+| 123          |                |
+| 10           |                |
+| -25          |                |
+
+
+## 1073 - Quadrado de pares
+
+Leia um valor inteiro N. Apresente o quadrado de cada um dos valores pares, de 1 até N, inclusive N, se for o caso.
+
+**Input**
+
+A entrada contém um valor inteiro N (5 < N < 2000).
+
+**Output**
+
+Imprima o quadrado de cada um dos valores pares, de 1 até N, conforme o exemplo abaixo.
+
+Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006 ao invés de 1000000 o que ocasionará resposta errada. Neste caso, configure a precisão adequadamente para que isso não ocorra.
+
+| Input Sample | Output Samples |
+| ------------ | -------------- |
+| 6            | 2^2 = 4        |
+|              | 4^2 = 16       |
+|              | 6^2 = 36       |
+
+
 ## 10 - 
 
 
@@ -949,6 +1212,218 @@ Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de
 |              |  
 
 ***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+***
+
+## 10 - 
+
+
+
+**Input**
+
+
+
+**Output**
+
+
+
+| Input Sample | Output Samples           |
+| ------------ | ------------------------ |
+|              |  
+
 
 ## 10 - 
 
